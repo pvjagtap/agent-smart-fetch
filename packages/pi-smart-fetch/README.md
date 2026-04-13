@@ -13,13 +13,13 @@
 - ⚡ **Batch fetch** — fetch many URLs with bounded concurrency
 - 📝 **Multiple output formats** — `markdown`, `html`, `text`, `json`
 
-## Supported sites
+## Site optimisations
 
-- **Anything fetchable over server-side HTTP** — this package is not limited to a fixed allowlist
-- Docs, blog posts, articles, and knowledge-base pages
+This package works on general web pages, but some site types benefit especially from Defuddle's extractors and cleanup:
+
+- YouTube pages and transcripts
 - Reddit posts and comment threads
 - X / Twitter posts
-- YouTube pages and transcripts
 - GitHub pages, issues, PRs, and discussions
 - Hacker News threads
 - Substack posts
